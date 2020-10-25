@@ -1,5 +1,4 @@
 from xml.etree import ElementTree
-from pprint import pprint
 
 
 def print_tree(file_name):

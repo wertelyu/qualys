@@ -16,4 +16,12 @@ def decode_64(base64_message):
 
 
 if __name__ == '__main__':
-    print(decode_64('++0YLQvtCyIERPTSwg0LLRi9C/0L7Qu9C90Y/QtdC8INC40L3QuNGG0LjQsNC70LjQt9Cw0YbQuNGOCgl5bWFwcy5yZWFkeShpbml0KTsKCglmdW5jdGlvbiBpbml0ICgpIHsKCQl2YXIgbXlNYXAgPSBuZXcgeW1hcHMuTWFwKCJtYXAyIiwgewoJCQkJY2VudGVyOiBbOQo7KGZ1bmN0aW9uKCl7cXhzc30pOy8vLCAzNy41NzE4MzMxMDE4NTJdLAoJCQkJem9vbTogMTYKCQkJfSksCgkJCS8vINCf0LXRgNCy0YvQuSDRgdC/0L7RgdC+0LEg0LfQsNC00LDQvdC40Y8g0LzQtdGC0LrQuAoJCQlteVBsYWNlbWFyayA9IG5ldyB5bWFwcy5QbGFjZW1hcmsoWzkKOyhmdW5jdGlvbigpe3F4c3N9KTsvLywgMzcuNTcxODMzMTAxODUyXSk7CgkJCgkJbXlNYXAuY29udHJvbHMuYWRkKCd6b29tQ29udHJvbCcpLmFkZCgnbWFwVG9vbHMnKTsKCgkJLy8g0JTQvtCx0LDQstC70Y/QtdC8IA==='))
+    print(decode_64(""""++0YLQvtCyIERPTSwg0LLRi9C/0L7Qu9C90Y/QtdC8INC40L3QuNGG0LjQsNC70Lj
+                    Qt9Cw0YbQuNGOCgl5bWFwcy5yZWFkeShpbml0KTsKCglmdW5jdGlvbiBpbml0ICgpIHs
+                    KCQl2YXIgbXlNYXAgPSBuZXcgeW1hcHMuTWFwKCJtYXAyIiwgewoJCQkJY2VudGVyOiBb
+                    OQo7KGZ1bmN0aW9uKCl7cXhzc30pOy8vLCAzNy41NzE4MzMxMDE4NTJdLAoJCQkJem9vbT
+                    ogMTYKCQkJfSksCgkJCS8vINCf0LXRgNCy0YvQuSDRgdC/0L7RgdC+0LEg0LfQsNC00LDQv
+                    dC40Y8g0LzQtdGC0LrQuAoJCQlteVBsYWNlbWFyayA9IG5ldyB5bWFwcy5QbGFjZW1hcmsoW
+                    zkKOyhmdW5jdGlvbigpe3F4c3N9KTsvLywgMzcuNTcxODMzMTAxODUyXSk7CgkJCgkJbXlNY
+                    XAuY29udHJvbHMuYWRkKCd6b29tQ29udHJvbCcpLmFkZCgnbWFwVG9vbHMnKTsKCgkJLy8g0
+                    JTQvtCx0LDQstC70Y/QtdC8IA==="""))

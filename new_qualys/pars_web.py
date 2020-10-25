@@ -22,7 +22,7 @@ def parser(filename):
     wasc = {}
     for code in root[5][3]:
         wasc_dict = {line.tag: line.text for line in code}
-        wasc[wasc_dict['CODE']] = owasp_dict['NAME']
+        wasc[wasc_dict['CODE']] = wasc_dict['NAME']
 
     group = {}
     for code in root[5][1]:
@@ -172,6 +172,7 @@ def main(file_name):
                  'IGNORED', 'SEVERITY', 'CATEGORY', 'CVSS_BASE', 'CVSS_TEMPORAL', 'TITLE', 'GROUP', 'OWASP', 'WASC',
                  'CWE', 'DESCRIPTION', 'IMPACT', 'SOLUTION',
                  'FORM_ENTRY_POINT', 'PARAM', 'ACCESS_PATH', 'DATA', 'SSL_DETAILS', 'PAYLOADS']
+
         writer = csv.DictWriter(f, fieldnames=title,
                                 quoting=csv.QUOTE_NONNUMERIC)
         writer.writeheader()
